@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<form method="post" action="/new">
+			<input name="item" placeholder="enter a todo list item here">
+			<input type="submit" value="Submit">
+		</form>
+		<ol>
+			<% @list.each do |item| %>
+				<li><% item %></li>
+	  		<% end %>
+  		</ol>
+	</body>
+</html>

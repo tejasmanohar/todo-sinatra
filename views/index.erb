@@ -1,13 +1,15 @@
-<html>
-	<body>
-		<form method="post" action="/new">
-			<input name="item" placeholder="enter a todo list item here">
-			<input type="submit" value="Submit">
-		</form>
-		<ol>
-			<% @@list.each do |item| %>
-				<li><%= item %></li>
-	  		<% end %>
-  		</ol>
-	</body>
-</html>
+<form method="post" action="/new">
+  <input name="item" placeholder="task item" class="form-control floating-label" data-hint="Add an item to your todo list" type="text">
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<ol>
+	<% @@list.each do |item| %>
+  	<li><%= item %></li>
+  <% end %>
+</ol>
+
+<style>
+body {
+	background-color: #4db6ac;
+}
+</style>

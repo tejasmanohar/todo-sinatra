@@ -1,6 +1,6 @@
 require 'sinatra'
 
-@@list = ['sample item']
+@@list = []
 
 get '/' do
 	erb :index

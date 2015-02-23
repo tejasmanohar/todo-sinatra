@@ -1,7 +1,8 @@
 # todo-sinatra
 sinatra todo app w/ material design
 
-contributors
+# contributors
+
 1. bennett cooper
 2. carson woods
 

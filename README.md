@@ -1,5 +1,5 @@
 # todo-sinatra
-sinatra todo app w/ material design
+sinatra todo app
 
 # contributors
 
